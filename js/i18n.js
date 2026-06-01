@@ -21,6 +21,11 @@ const I18N = {
       menuClose: "Close menu",
     },
     lang: { en: "English", ml: "മലയാളം", switch: "Language" },
+    mobile: {
+      call: "Call",
+      visit: "Book visit",
+      barAria: "Quick actions",
+    },
     hero: {
       badge: "A gym where age is just a number",
       title: 'Feel stronger, calmer, and more <em>you</em> — at 40, 50, 60, and beyond.',
@@ -201,6 +206,11 @@ const I18N = {
       menuClose: "മെനു അടയ്ക്കുക",
     },
     lang: { en: "English", ml: "മലയാളം", switch: "ഭാഷ" },
+    mobile: {
+      call: "വിളിക്കുക",
+      visit: "സന്ദർശനം",
+      barAria: "പെട്ടെന്നുള്ള പ്രവർത്തനങ്ങൾ",
+    },
     hero: {
       badge: "പ്രായം ഒരു സംഖ്യ മാത്രം — അവിടെയാണ് ഞങ്ങളുടെ ജിമ്മ്",
       title:
