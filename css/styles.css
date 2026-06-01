@@ -904,9 +904,37 @@ h3 {
   gap: 0.5rem;
 }
 
-.gallery-grid--single {
-  max-width: 720px;
+.gallery-grid--photos {
+  max-width: 1040px;
   margin-inline: auto;
+}
+
+@media (min-width: 768px) {
+  .gallery-grid--photos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-grid--photos .gallery-card--featured {
+    grid-column: 1 / -1;
+  }
+
+  .gallery-grid--photos .gallery-card--featured img {
+    aspect-ratio: 21 / 9;
+    min-height: 320px;
+    max-height: 480px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.gallery-grid--photos .gallery-card:not(.gallery-card--featured) img {
+  aspect-ratio: 4 / 3;
+  min-height: 220px;
+}
+
+.gallery-card--tall img {
+  aspect-ratio: 3 / 4;
+  object-position: top center;
 }
 
 .video-pairs {
